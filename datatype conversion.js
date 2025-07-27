@@ -51,5 +51,26 @@ gamecounter++
 console.log(gamecounter); // 101
 
 
+// +++++++++++++++++memory+++++++++++++++++++++++
+// stack(primitive data types)
+// heap(non-primitive data types)
+
+let user ="Avadhut";
+
+let user2 = user;
+//console.log(user2); // Avadhut
+
+
+let user3 ={
+    name: "Avadhut",
+    age: 22,
+    isLoggedIn: true
+}
+
+let user4 = user3;
+user4.name="aditya";
+console.log(user3.name); // aditya
+
+
 
 
