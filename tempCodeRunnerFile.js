@@ -1,4 +1,1 @@
-console.log(null == 0);
-// console.log(null === 0);
-// console.log(null > 0);
-// console.log(null < 0);
+const newgame = newstring ="aditya";
